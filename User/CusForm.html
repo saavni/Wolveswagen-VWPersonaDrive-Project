@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./CusForm.css" />
+  <link rel="icon" href="/Volkswagen Project/Logo.png" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="roomnav">
+      <div id="left">
+        <h2>DashBoard , Shubham Singh</h2>
+      </div>
+      <div id="mid">
+        <input type="search" placeholder="find customization details" />
+        <i class="ri-search-line"></i>
+      </div>
+      <div id="right">
+        <!-- <a href=""><i class="ri-home-fill"></i></a>
+        <a href=""><i class="ri-bookmark-3-fill"></i></a> -->
+        <a href="${link}"><i class="${notify}"></i></a>
+        <i onclick="toggle(document.getElementById('notifdiv').id)" class="ri-notification-2-line"></i>
+      </div>
+    </div>
+
+    <div id="mainDash">
+      <form>
+        <h1>Provide your Customization Requirements</h1>
+        <div class="inputBox">
+          <select required="required" >
+            <option value="Sedan">Sedan</option>
+            <option value="SUV">SUV</option>
+            <option value="MPV">MPV</option>
+          </select>
+          <span>Segment</span>
+        </div>
+        <div class="inputBox">
+          <select required="required" >
+            <option value="1.0L TSI">1.0L TSI</option>
+            <option value="1.5L TSI">1.5L TSI</option>
+            <option value="2.0L TSI">2.0L TSI</option>
+          </select>
+          <span>Engine Capacity</span>
+        </div>
+        <div class="inputBox">
+          <select required="required" >
+            <option value="Manual Tranimission">Manual Tranimission</option>
+            <option value="Automatic Tranimission">Automatic Tranimission</option>
+          </select>
+          <span>Transmission Type</span>
+        </div>
+        <div class="inputBox">
+          <select required="required" >
+            <option value="Disc">Disc</option>
+            <option value="Drum">Drum</option>
+          </select>
+          <span>Brakes</span>
+        </div>
+        <div class="inputBox">
+          <select required="required" >
+            <option value="Petrol">Petrol</option>
+            <option value="Diesel">Diesel</option>
+          </select>
+          <span>Fuel Type</span>
+        </div>
+        <div class="inputBox">
+          <select required="required" >
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+          <span>Sunroof</span>
+        </div>
+        <div class="inputBox">
+          <select required="required" >
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+          <span>Ventilated Seats</span>
+        </div>
+        <a href="./CusDet.html"
+          ><input type="button" value="Save Details" class="btn"
+        /></a>
+        <a href="#"><input type="reset" value="Reset" class="btn" /></a>
+      </form>
+  </div>
+</body>
+</html>

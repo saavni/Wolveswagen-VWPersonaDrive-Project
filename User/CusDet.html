@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./cusdet.css" />
+    <link rel="icon" href="/Volkswagen Project/Logo.png" />
+  </head>
+
+  <body>
+    <div id="main">
+      <div id="roomnav">
+        <div id="left">
+          <h2>DashBoard , Shubham Singh</h2>
+        </div>
+        <div id="mid">
+          <input type="search" placeholder="find customization details" />
+          <i class="ri-search-line"></i>
+        </div>
+        <div id="right">
+          <a href="${link}"><i class="${notify}"></i></a>
+          <i
+            onclick="toggle(document.getElementById('notifdiv').id)"
+            class="ri-notification-2-line"
+          ></i>
+        </div>
+      </div>
+
+      <div id="mainDash">
+        <div id="left">
+          <div id="carddiv">
+            <div id="colordiv"></div>
+            <div id="imgdiv">
+              <i class="ri-user-add-line user"></i>
+              <i class="ri-add-circle-fill add"></i>
+            </div>
+            <div id="profile">
+              <h1>Shubham Singh</h1>
+              <p>Bhopal, Madhya Pradesh</p>
+              <div id="bubbles">
+                <div class="bubble">
+                  <i class="ri-men-line"></i>
+                  <p>Male</p>
+                </div>
+                <div class="bubble">
+                  <img src="./birthday-cake.png" alt="" />
+                  <p>27 Aug 2002</p>
+                </div>
+                <div class="bubble">
+                  <img src="./telephone.png" alt="" />
+                  <p>+91 9516413934</p>
+                  <span>Verify</span>
+                </div>
+                <div class="bubble">
+                  <img src="./email.png" alt="" />
+                  <p>singhshubh20m@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="right">
+          <a href="./UserHome.html">
+            <div id="back">
+              <i class="ri-arrow-left-line"></i>
+              <p>Back to home page</p>
+            </div>
+          </a>
+
+          <div id="heading">
+            <h3>Customization Details :</h3>
+          </div>
+          <div id="slidemenu">
+            <div id="info">
+              <p>Information</p>
+            </div>
+          </div>
+          <div id="boderdiv">
+            <div id="cover"></div>
+          </div>
+          <div id="collapse">
+            <div id="infodiv">
+              <div class="det">
+                <p>Segment</p>
+                <p>Engine Capacity</p>
+                <p>Transmission Type</p>
+                <p>Brakes</p>
+                <p>Fuel Type</p>
+                <p>Sunroof</p>
+                <p>Ventilated Seats</p>
+              </div>
+              <div class="entries">
+                <p>Sedan</p>
+                <p>1.0L TSI</p>
+                <p>Manual Transmission</p>
+                <p>Disc</p>
+                <p>Petrol</p>
+                <p>Yes</p>
+                <p>Yes</p>
+              </div>
+            </div>
+          </div>
+          <a href="./CusForm.html"
+            ><button>Modify your Customization</button></a
+          >
+          <a href="./UserRecModel.html"
+            ><button>View Recommended Model</button></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

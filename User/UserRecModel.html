@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Recommended Model</title>
+    <link rel="stylesheet" href="./UserRecModel.css" />
+    <link rel="icon" href="/Volkswagen Project/Logo.png" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="part1">
+        <h1>Recommended Model According to your Customization Need</h1>
+      </div>
+      <div id="part2">
+        <div class="brighten">
+          <img src="/Volkswagen Project/virtus.jpeg" alt="Car Image" />
+        </div>
+        <div id="right">
+          <h2>Specification :</h2>
+          <div id="collapse">
+            <div id="infodiv">
+              <div class="det">
+                <p>Segment</p>
+                <p>Engine Capacity</p>
+                <p>Transmission Type</p>
+                <p>Steering</p>
+                <p>Brakes</p>
+                <p>Suspension</p>
+                <p>Fuel Type</p>
+                <p>Tank Capacity</p>
+                <p>Sunroof</p>
+                <p>Ventilated Seats</p>
+                <p>Safety</p>
+              </div>
+              <div class="entries">
+                <p>Sedan</p>
+                <p>1.5L TSI</p>
+                <p>Manual Transmission</p>
+                <p>Electromechanical</p>
+                <p>Front-Disc Rear-Drum</p>
+                <p>Mc-Pherson suspension</p>
+                <p>Petrol</p>
+                <p>45</p>
+                <p>Yes</p>
+                <p>Yes</p>
+                <p>5-Star</p>
+              </div>
+            </div>
+          </div>
+          <h3>If Requirements matches, Visit nearest Dealer.</h3>
+          <h3>If Requirements doesn't matches, Chech Model Feasibility.</h3>
+          <button onclick="showAlert()">Chech Model Feasibility</button>
+        </div>
+      </div>
+    </div>
+    <script>
+      function showAlert() {
+        alert(
+          "Your Customization has been forwarded to the company for model feasibility check and a response will arrived shortly for you."
+        );
+      }
+    </script>
+  </body>
+</html>
